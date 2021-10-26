@@ -6,7 +6,7 @@
 /*   By: evila-ro <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/26 12:48:50 by evila-ro          #+#    #+#             */
-/*   Updated: 2021/10/26 17:55:04 by evila-ro         ###   ########.fr       */
+/*   Updated: 2021/10/26 18:18:04 by evila-ro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-int	ft_strlen(char *str)
-{
-	int	i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
 
 int	draw(float x, float y, float xp, float yp, float w, float h)
 {
